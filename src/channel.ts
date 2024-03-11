@@ -1,5 +1,5 @@
-import { Observable, Observer, ChannelObserver } from "./observer";
-import { News } from "./news";
+import { Observable, Observer, ChannelObserver } from "./observer.js";
+import { News } from "./news.js";
 
 /**
  * Interface for channles classes

@@ -5,8 +5,11 @@
     "./dist"
   ],
   "compilerOptions": {
+    // "target": "es2022",
     "target": "es2022",
-    "module": "commonjs",
+    // "module": "commonjs",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "rootDir": "./",
     "outDir": "./dist",
     "declaration": true,
