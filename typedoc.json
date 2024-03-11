@@ -1,5 +1,8 @@
 {
     "entryPoints": [
+        "./src/channel.ts",
+        "./src/news.ts",
+        "./src/observer.ts"
     ],
     "out": "./docs"
 }
