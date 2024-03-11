@@ -2,11 +2,12 @@
   "name": "practica-pe-07",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/ejercicio-2/facturacion_basica.ts",
+  "main": "./src/",
+  "type": "module",
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc npm test && nyc report --reporter=lcov",
-    "start": "tsc-watch --onSuccess \"node dist/ejercicio-2/facturacion_basica.js\"",
+    "coverage": "c8 npm test && c8 report --reporter=lcov",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
     "doc": "typedoc"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
     "@types/node": "^20.11.24",
+    "c8": "^9.1.0",
     "chai": "^4.4.1",
     "eslint-config-prettier": "^9.1.0",
     "mocha": "^10.3.0",
